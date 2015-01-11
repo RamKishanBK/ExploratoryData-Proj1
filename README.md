@@ -35,7 +35,7 @@ web site</a>:
 
 ## Details about repository
 
-* There are four .R files plot1.R - plot4.R which generates the four .png files plot1.png - plot4.png.
+* There are four .R files plot1.R - plot4.R which generates the four .png files plot1.png - plot4.png respectively.
 
 * The "png" files are of dimension 480 X 480 pixels.
 
@@ -48,6 +48,9 @@ web site</a>:
 * We have used sqldf package and used a select query with a where condition on date to fiter and load only 2 days of data from the input file.
 
 * We have concatenated the column Date and Time and created a new column DateTime using this function. data$DateTime<-as.POSIXct(paste(data$Date, data$Time), format="%d/%m/%Y %H:%M:%S")
+
+
+##Graphs produced by each of the .R files.
 
 ### Plot 1
 
